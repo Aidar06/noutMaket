@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=EB+Garamond:wght@400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nosifer&family=Overlock+SC&family=PT+Sans+Narrow:wght@400;700&family=Pacifico&family=Playfair+Display:wght@400;500;600;700;800;900&family=Shadows+Into+Light&display=swap');
+
+#header{
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  background: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+      font-size: 30px;
+      font-family: 'Overlock SC', sans-serif;
+      cursor: pointer;
+    }
+    &--nav{
+      display: flex;
+      justify-content: space-between;
+      &__link{
+        margin: 0 20px;
+        cursor: pointer;
+        font-size: 20px;
+        color: black;
+        text-decoration: none;
+        font-family: sans-serif;
+      }
+    }
+  }
+}
